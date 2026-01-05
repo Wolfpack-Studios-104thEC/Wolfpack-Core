@@ -24,32 +24,6 @@ class CfgFactionClasses
 		side = 1;
 	};
 };
-class CfgEditorCategories
-{
-	class WPEC_categoryEmpty
-	{
-		displayName = "104th Auxiliary Assets";
-	};
-};
-class CfgEditorSubcategories
-{
-	class WPEC_Subcategory_Trooper
-	{
-		displayName = "104th EC Trooper";
-	};
-	class WPEC_subcategoryAircraftRotary
-	{
-		displayName = "104th Aircraft (Rotary-Wing)";
-	};
-	class WPEC_Subcategory_Gonk
-	{
-		displayName = "Gonk Droids";
-	};
-	class WPEC_Subcategory_Aries
-	{
-		displayName = "104th Aries";
-	};
-};
 class CfgFunctions
 {
 	class WPEC
