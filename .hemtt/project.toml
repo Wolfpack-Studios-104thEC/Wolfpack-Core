@@ -1,0 +1,13 @@
+name = "WolfPack Studios Core"
+author = "WolfPack Studios"
+prefix = "wpec"
+mainprefix = "z"
+
+[hemtt.release]
+archive = false # Default: true
+
+[version]
+major = 1
+minor = 0
+patch = 0
+build = 0

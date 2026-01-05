@@ -1,4 +1,4 @@
-params ["_this"];
+params [];
 
 _canSpawn = true;
 

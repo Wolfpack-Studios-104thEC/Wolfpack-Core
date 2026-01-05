@@ -1,4 +1,4 @@
-params ["_this", "_player"];
+params [ "_player"];
 
 _canOpen = true;
 
