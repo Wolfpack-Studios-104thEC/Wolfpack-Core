@@ -1,6 +1,7 @@
 class CfgWeapons {
     class WPS_Phase_2_Helmet_Base;
     class WPS_Phase_2_ARC_Helmet_Base;
+    class WPS_ARF_Helmet_Base;
 
     //P2
     P2_HELMET_RANK_MACRO(2,CR);
@@ -45,6 +46,15 @@ class CfgWeapons {
     P2_HELMET_CUSTOM_GLOW_MACRO(2,Ricebowl,White);
 
     //ARC
+    class WPEC_Phase_2_ARC_Helmet: WPS_Phase_2_ARC_Helmet_Base
+    {
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "[104th] Phase 2 ARC";
+        picture = "\WPEC\WPEC_Helmets\icons\IconARC_co.paa";
+        hiddenSelectionsTextures[] = {QPATHTOF(helmets\data\arc\rank\Phase2ARC_co.paa), QPATHTOF(helmets\data\arc\light\ARCLight_co.paa), QPATHTOF(helmets\data\visor\visor_co.paa)};
+    };
+
     ARC_HELMET_RANK_MACRO(2,Trainee);
     ARC_HELMET_RANK_MACRO(2,Veteran);
 
@@ -55,4 +65,20 @@ class CfgWeapons {
     ARC_HELMET_CUSTOM_MACRO(2,Firehawk);
 
     ARC_HELMET_CUSTOM_GLOW_MACRO(2,Graves,Chrome);
+
+    //ARF
+    class WPEC_ARF_Helmet: WPS_ARF_Helmet_Base
+    {
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "[104th] ARF Helmet [Unmarked]";
+        picture = "\WPEC\WPEC_Helmets\icons\IconARFUnmarked_co.paa";
+        hiddenSelectionsTextures[] = {QPATHTOF(helmets\data\arf\rank\Phas2ARF_co.paa),QPATHTOF(helmets\data\visor\visor_co.paa)};
+    };
+
+    ARF_HELMET_RANK_MACRO(2,Billeted);
+
+    ARF_HELMET_CUSTOM_MACRO(2,Drom);
+    ARF_HELMET_CUSTOM_MACRO(2,Spec);
+    ARF_HELMET_CUSTOM_MACRO(2,Subbie);
 };
